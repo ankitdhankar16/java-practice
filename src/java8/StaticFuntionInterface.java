@@ -15,8 +15,15 @@ interface A{
         System.out.println("Ankit");
     }
 }
+class B implements A{
+    public void getName(){
+        System.out.println("Name from B");
+    }
+}
 public class StaticFuntionInterface{
     public static void main(String[] args) {
         A.getName();
+        B b=new B();
+        b.getName();
     }
 }
