@@ -5,11 +5,10 @@ interface Greeting{
     void sayHello();
 }
 public class LambdaExpression {
-    Greeting greeting = ()-> System.out.println("Hello");
 
     public static void main(String []args){
-        LambdaExpression lambdaExpression=new LambdaExpression();
-        lambdaExpression.greeting.sayHello();
+        Greeting greeting = ()-> System.out.println("Hello");
+        greeting.sayHello();
     }
 
 }
