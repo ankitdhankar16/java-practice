@@ -19,8 +19,8 @@ public class LambaExpressionComparator {
         Collections.sort(list,(a,b)->b-a);
         System.out.println("List after sorting :" + list);
         //OUTPUT:
-//        List:[1, 2, 3, 4, 5, 6, 7]
-//        List after sorting :[7, 6, 5, 4, 3, 2, 1]
+        //List:[1, 2, 3, 4, 5, 6, 7]
+        //List after sorting :[7, 6, 5, 4, 3, 2, 1]
 
     }
 }
